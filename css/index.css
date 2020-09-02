@@ -1,0 +1,28 @@
+body{
+  background: url("/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+img{
+  box-shadow: 5px 10px 8px #383131;
+}
+
+.myname{
+  margin-top: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.myname:hover{
+  letter-spacing: 5px;
+  font-size: 4.5rem;
+}
